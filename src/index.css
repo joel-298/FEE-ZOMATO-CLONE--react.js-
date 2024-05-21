@@ -1,0 +1,9 @@
+:root{
+    background:linear-gradient(black,rgb(77, 10, 10),black);
+    padding: 0px;
+    margin: 0px;
+}
+
+*{
+    scroll-behavior: smooth;
+}

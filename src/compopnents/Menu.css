@@ -1,0 +1,231 @@
+.menu-heading{
+    display: flexbox;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    height: auto;
+    max-height: fit-content;
+    margin-top:4vh;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 2vh; 
+    padding-bottom: 4vh; 
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius:3vh;
+    width:80%;
+    
+}
+.menu-heading h1{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 6vh;
+}
+.menu-heading p{
+    background-color: transparent;
+    margin-top: 1vh;
+    font-size: 2.6vh;
+    padding: 0% 5%;
+    display: flex;
+    text-align: center;
+
+}
+
+
+.menu-nav-bar{
+    /* background-color: blueviolet; */
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    padding: 20px;
+    column-gap: 2vh;
+    row-gap: 2vh;
+    width: 80%;
+    margin: 0px auto;
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+.menu-nav-bar img{
+    margin-top: 0.5vh;
+    background-color: transparent;
+    border-radius: 100%;
+    box-shadow: 0px 0px 50px -20px rgb(232, 159, 131);
+}
+.menu-nav-bar h1{
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.menu-items{
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 7px 15px;
+    color: white;
+    /* box-shadow: 0px 0px 60px -50px whitesmoke; */
+}
+
+.menu-items:hover{
+    background-color: rgb(99, 99, 99);
+    box-shadow: 0px 0px 100px -50px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+.FOOD_ITEMS{
+    width:90%;
+    /* background-color: rgb(73, 73, 73); */
+    border-radius: 2vh;
+    margin:5vh auto;
+    display: flex;
+    column-gap: 4vh;
+    padding-bottom: 2vh;
+    /* overflow-y: scroll; */
+
+
+    /*this is the main property*/
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.card{
+    margin-top: 2vh;
+    background-color: rgba(31, 30, 30, 0.563);
+    width:30vh;
+    height:auto;
+    /* padding-top:1vh; */
+    padding-bottom:0vh ;
+    display: flexbox;
+    border-radius:2vh ;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(72, 72, 72);
+    box-shadow: 0px 0px 25px -15px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.card img{
+    margin:0px;
+    width:100%;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    box-shadow: 0px 0px 15px -10px white;
+}
+.card .title-heading-price{
+    margin-top:-7vh;
+    display: flex;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    justify-content: space-evenly;
+    background-color: transparent;
+    color: white;
+    /* background-color: blanchedalmond; */
+}
+.title-heading-price h4{
+    display: flex;
+    background-color: transparent;
+    color: white;
+}
+.title-heading-price h3{
+    display: flex;
+    background-color: transparent;
+    color: white;
+}
+
+.card p{
+    margin-top: 1vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    display: flex;
+    background-color: transparent;
+    color: white;
+    text-align: start;
+    
+}
+
+
+
+
+
+
+.add-cart{
+    /* background-image: linear-gradient(to right, transparent,transparent,black, black,transparent); */
+    background-color: rgba(88, 52, 52, 0.677);
+    display: flex;
+    height:6vh;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    top: -7vh;
+    left:23vh;
+    border-radius: 10vh;
+    column-gap: 0.2vh;
+    width:20%;
+    color: white;
+}
+.add-cart h3{
+    background-color: transparent;
+    /* visibility: hidden; */
+    color: white;
+}
+.add-cart img {
+    height: 4.5vh;
+    width:4.5vh;
+    border-radius: 100vh;
+    margin: auto 1vh;
+    /* margin-right: ; */
+}
+
+.icon_red{
+    visibility: hidden;
+    border: 2px solid rgb(255, 60, 0);
+    
+}
+.icon_white{
+    border: 2px solid rgb(123, 255, 0);
+    position: relative;
+    left: 0.5vh;
+}
+
+
+/*classes that we want to add if the quantity increases from 0 and remove if the counter gets back to 0*/
+.hidden_counter {
+    display: none;
+}
+
+.visible_counter {
+    display: flex; /* or inline, block, etc., depending on your layout needs */
+}
+.visible_red_icon {
+    visibility: visible;
+}
+
+.visible_div {
+    width: 50%; 
+    left: 15vh;
+}
+
+
+/* active class for menu items */
+.active {
+    background-color: transparent ;
+    border-bottom:2px solid rgb(255, 255, 255);
+}
+.active-menu-items{
+    background-color: grey;
+}
