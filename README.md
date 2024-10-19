@@ -46,3 +46,10 @@ Key Features:-
   For child-to-parent communication, we have employed callback functions (this concept is known as "lifting state up").
 9) React Hooks:
   The project utilizes several React Hooks such as useState, useEffect, and useContext to manage state, lifecycle events, and shared data between components.
+
+
+
+
+Limitations:-
+1) Search-Bar : 
+  Search-Bar does not work for now .... 
